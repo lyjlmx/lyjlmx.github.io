@@ -1,0 +1,54 @@
+.search-list-zone {
+	margin: 40px auto; width: 1200px; min-height: 700px;
+}
+.search-list-zone img.no-list {
+	margin: 0px auto; width: 106px; padding-top: 260px; display: block;
+}
+.search-list-zone .list-cell {
+	padding: 0px 17px; width: 300px; margin-top: 20px; display: inline-block;
+}
+.search-list-zone .shop-searsh-result-cell {
+	padding: 15px 20px; border: 1px solid rgb(238, 238, 238); border-image: none; width: 100%;
+}
+.search-list-zone .shop-searsh-result-cell:hover {
+	cursor: pointer; box-shadow: 0px 0px 20px 0px rgba(89,89,85,0.13);
+}
+.shop-searsh-result-cell .shop-img {
+	width: 100%; height: 200px; overflow: hidden; vertical-align: middle; position: relative;
+}
+.shop-searsh-result-cell .shop-img img {
+	left: 50%; top: 50%; width: 100%; display: inline-block; position: absolute; transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%);
+}
+.shop-searsh-result-cell .shop-brief {
+	margin: 14px 0px; height: 37px; color: rgb(51, 51, 51); line-height: 1.4; overflow: hidden; font-size: 14px; -ms-word-break: break-all; -ms-text-overflow: ellipsis; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+}
+.shop-searsh-result-cell .show-foot {
+	width: 100%; line-height: 1.1; position: relative; min-height: 40px;
+}
+.shop-searsh-result-cell .show-foot span {
+	display: inline-block; position: absolute;
+}
+.shop-searsh-result-cell .show-foot .cur-money {
+	left: 0px; top: -2px; color: rgb(235, 36, 43); font-size: 18px; font-weight: 700;
+}
+.shop-searsh-result-cell .show-foot .cur-money em {
+	font-size: 12px;
+}
+.shop-searsh-result-cell .show-foot .fav {
+	top: 3px; right: 0px; color: rgb(102, 102, 102); font-size: 12px;
+}
+.shop-searsh-result-cell .show-foot .fav .icon-fav {
+	margin-bottom: -4px;
+}
+.shop-searsh-result-cell .show-foot .or-money {
+	left: 0px; bottom: 0px; color: rgb(187, 187, 187); font-size: 10px; text-decoration: line-through;
+}
+.shop-searsh-result-cell .show-foot .sales {
+	right: 0px; bottom: 0px; color: rgb(102, 102, 102); font-size: 12px;
+}
+.shop-searsh-result-cell .show-foot .sales em {
+	color: rgb(0, 121, 187); font-weight: 700;
+}
+.search-list-zone .no-more {
+	text-align: center; color: rgb(153, 153, 153); font-size: 12px; margin-top: 30px;
+}

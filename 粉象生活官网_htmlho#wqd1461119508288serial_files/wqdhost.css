@@ -1,0 +1,390 @@
+@media all and (min-width:768px)
+{
+.wqdPhoneContainer {
+	background: url("../images/bg.jpg") center;
+}
+.wqdPhoneContainer .wqdIphoneView {
+	margin: 0px auto; width: 320px; background-color: rgb(255, 255, 255);
+}
+.wqdPhoneContainer .footerFixed {
+	margin: 0px auto; width: 320px;
+}
+}
+[data-elementtype='text'].wqdelementEdit {
+	border: currentColor; border-image: none;
+}
+.wqdPublisHidden {
+	display: none !important;
+}
+#wqdShowQQD {
+	position: fixed; z-index: 99;
+}
+.wqdControlForm .formRadio {
+	cursor: pointer;
+}
+.wqdControlForm .formCheckbox {
+	cursor: pointer;
+}
+.wqdControlForm .formRadio label {
+	cursor: pointer;
+}
+.wqdControlForm .formCheckbox label {
+	cursor: pointer;
+}
+.wqdIphoneView .wqdFormIframeWarp {
+	overflow: scroll; -webkit-overflow-scrolling: touch;
+}
+.groupContainerOne {
+	cursor: pointer;
+}
+.freeContainerOne {
+	cursor: pointer;
+}
+.sectionHeader.yzmoveContent {
+	position: relative;
+}
+[wqdfadein='fadeinLeft'].groupContainerTwo .containerWarp {
+	animation:wqdfadeInLeft 0.5s; -webkit-animation: wqdfadeInLeft 0.5s; -moz-animation: wqdfadeInLeft 0.5s;
+}
+[wqdfadein='fadeinLeft'].freeContainerTwo .containerWarp {
+	animation:wqdfadeInLeft 0.5s; -webkit-animation: wqdfadeInLeft 0.5s; -moz-animation: wqdfadeInLeft 0.5s;
+}
+.articleLists.wqdelementEdit {
+	display: none;
+}
+.artlShow.articleLists.wqdelementEdit {
+	display: block !important;
+}
+.aniHide {
+	opacity: 0;
+}
+.fullscreen [data-elementtype='carouse'] {
+	left: 50% !important; width: 100%; height: 100% !important; opacity: 0; transform: translateX(-50%); -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%);
+}
+[wqdfadein='fadeinRight'].groupContainerTwo .containerWarp {
+	animation:wqdfadeinRight 0.5s; -webkit-animation: wqdfadeinRight 0.5s; -moz-animation: wqdfadeinRight 0.5s;
+}
+[wqdfadein='fadeinRight'].freeContainerTwo .containerWarp {
+	animation:wqdfadeinRight 0.5s; -webkit-animation: wqdfadeinRight 0.5s; -moz-animation: wqdfadeinRight 0.5s;
+}
+[wqdfadein='fadeinTop'].groupContainerTwo .containerWarp {
+	animation:wqdfadeinTop 0.5s; -webkit-animation: wqdfadeinTop 0.5s; -moz-animation: wqdfadeinTop 0.5s;
+}
+[wqdfadein='fadeinTop'].freeContainerTwo .containerWarp {
+	animation:wqdfadeinTop 0.5s; -webkit-animation: wqdfadeinTop 0.5s; -moz-animation: wqdfadeinTop 0.5s;
+}
+[wqdfadein='fadeinBottom'].groupContainerTwo .containerWarp {
+	animation:wqdfadeinBottom 0.5s; -webkit-animation: wqdfadeinBottom 0.5s; -moz-animation: wqdfadeinBottom 0.5s;
+}
+[wqdfadein='fadeinBottom'].freeContainerTwo .containerWarp {
+	animation:wqdfadeinBottom 0.5s; -webkit-animation: wqdfadeinBottom 0.5s; -moz-animation: wqdfadeinBottom 0.5s;
+}
+[wqdfadein='zoomIn'].groupContainerTwo .containerWarp {
+	animation:wqdzoomIn 0.5s; -webkit-animation: wqdzoomIn 0.5s; -moz-animation: wqdzoomIn 0.5s;
+}
+[wqdfadein='zoomIn'].freeContainerTwo .containerWarp {
+	animation:wqdzoomIn 0.5s; -webkit-animation: wqdzoomIn 0.5s; -moz-animation: wqdzoomIn 0.5s;
+}
+.wqdfadeoutLeft.groupContainerTwo .containerWarp {
+	animation:wqdfadeoutLeft 0.5s both; -webkit-animation: wqdfadeoutLeft 0.5s both; -moz-animation: wqdfadeoutLeft 0.5s both;
+}
+.wqdfadeoutLeft.subTabContainer .containerWarp {
+	animation:wqdfadeoutLeft 0.5s both; -webkit-animation: wqdfadeoutLeft 0.5s both; -moz-animation: wqdfadeoutLeft 0.5s both;
+}
+.wqdfadeoutRight.groupContainerTwo .containerWarp {
+	animation:wqdfadeoutRight 0.5s both; -webkit-animation: wqdfadeoutRight 0.5s both; -moz-animation: wqdfadeoutRight 0.5s both;
+}
+.wqdfadeoutRight.subTabContainer .containerWarp {
+	animation:wqdfadeoutRight 0.5s both; -webkit-animation: wqdfadeoutRight 0.5s both; -moz-animation: wqdfadeoutRight 0.5s both;
+}
+.wqdfadeoutTop.groupContainerTwo .containerWarp {
+	animation:wqdfadeoutTop 0.5s both; -webkit-animation: wqdfadeoutTop 0.5s both; -moz-animation: wqdfadeoutTop 0.5s both;
+}
+.wqdfadeoutTop.subTabContainer .containerWarp {
+	animation:wqdfadeoutTop 0.5s both; -webkit-animation: wqdfadeoutTop 0.5s both; -moz-animation: wqdfadeoutTop 0.5s both;
+}
+.wqdfadeoutBottom.groupContainerTwo .containerWarp {
+	animation:wqdfadeoutBottom 0.5s both; -webkit-animation: wqdfadeoutBottom 0.5s both; -moz-animation: wqdfadeoutBottom 0.5s both;
+}
+.wqdfadeoutBottom.subTabContainer .containerWarp {
+	animation:wqdfadeoutBottom 0.5s both; -webkit-animation: wqdfadeoutBottom 0.5s both; -moz-animation: wqdfadeoutBottom 0.5s both;
+}
+.wqdzoomOut.groupContainerTwo .containerWarp {
+	animation:wqdzoomOut 0.5s both; -webkit-animation: wqdzoomOut 0.5s both; -moz-animation: wqdzoomOut 0.5s both;
+}
+.wqdzoomOut.subTabContainer .containerWarp {
+	animation:wqdzoomOut 0.5s both; -webkit-animation: wqdzoomOut 0.5s both; -moz-animation: wqdzoomOut 0.5s both;
+}
+.artDetlHide {
+	display: none;
+}
+.wqdCenterView .yzmoveContent {
+	overflow: hidden; position: relative;
+}
+.wqdSticky.wqdSectiondiv {
+	animation:wqdNavAnima 0.5s; left: 0px; top: 0px; right: 0px; position: fixed !important; z-index: 998; -webkit-animation: wqdNavAnima 0.5s ease; -webkit-transform: translateZ(0); -o-animation: wqdNavAnima 0.5s ease; -moz-animation: wqdNavAnima 0.5s ease;
+}
+.wqdSlideNext {
+	animation:wqdSlideNext 0.5s; -webkit-animation: wqdSlideNext 0.5s;
+}
+.wqdSlidePrev {
+	animation:wqdSlidePrev 0.5s; -webkit-animation: wqdSlidePrev 0.5s;
+}
+.footerFixed {
+	background: rgb(0, 0, 0); padding: 9px 10px; width: 100%; text-align: center !important; color: rgb(102, 102, 102); line-height: 18px !important; font-family: "Î¢ÈíÑÅºÚ"; font-size: 12px !important; min-height: 40px !important;
+}
+.footerFixed a.tex-con {
+	color: rgb(255, 255, 255); text-decoration: none; display: inline-block;
+}
+.ff-pc.footerFixed {
+	height: 60px; bottom: 0px; line-height: 40px !important; font-size: 14px; position: fixed; z-index: 1000000;
+}
+.footerFixed span.wqd {
+	color: rgb(255, 255, 255) !important; font-size: 14px !important; cursor: pointer;
+}
+.footerFixed .white span {
+	color: rgb(0, 0, 0) !important;
+}
+.footerFixed .footerFixed-btn {
+	border-radius: 30px; border: 1px solid rgb(255, 255, 255); border-image: none; width: 100px; text-align: center; line-height: 30px; padding-right: 5px; padding-left: 5px; font-size: 12px; margin-bottom: 26px; margin-left: 30px; vertical-align: middle; display: inline-block;
+}
+.footerFixed-logo {
+	background: url("/images/copyright/copyright_logo.png") no-repeat 0% 0% / 40px 40px; width: 40px; height: 40px; display: inline-block;
+}
+.white.footerFixed .footerFixed-logo {
+	background: url("/images/copyright/copyright_logo2.png") no-repeat 0% 0% / 40px 40px; width: 40px; height: 40px;
+}
+.footerFixed-text {
+	line-height: 40px; font-size: 14px; font-weight: 400; margin-bottom: 26px; margin-left: 5px; vertical-align: middle; display: inherit; cursor: pointer;
+}
+.footerFixed .copyrightClose {
+	background: url("/images/copyright/copyright_close.png") no-repeat -22px 9px; width: 32px; height: 30px; margin-top: 4px; float: right;
+}
+.white.footerFixed .copyrightClose {
+	background: url("/images/copyright/copyright_close.png") no-repeat 0px 9px; width: 32px; height: 30px; margin-top: 4px; float: right;
+}
+.black.footerFixed {
+	background: rgba(51, 51, 51, 0.75) !important;
+}
+.black.footerFixed span.footerFixed-btn:hover {
+	background: rgb(88, 197, 255); border: 1px solid rgb(88, 197, 255); border-image: none; color: rgb(255, 255, 255);
+}
+.black.footerFixed a {
+	color: rgb(252, 252, 252) !important;
+}
+.black.footerFixed a span.wqd {
+	color: rgb(87, 195, 255) !important;
+}
+.plum.footerFixed {
+	background: rgba(141, 145, 255, 0.9) !important;
+}
+.plum.footerFixed span.footerFixed-btn:hover {
+	background: rgb(255, 255, 255); color: rgb(141, 145, 255);
+}
+.white.footerFixed {
+	background: rgba(255, 255, 255, 0.9) !important; border: 1px solid rgb(204, 204, 204); border-image: none;
+}
+.white.footerFixed span.footerFixed-btn:hover {
+	background: rgb(88, 197, 255); color: rgb(255, 255, 255) !important;
+}
+.white.footerFixed span.footerFixed-btn {
+	border: 1px solid rgb(90, 196, 255); border-image: none; color: rgb(90, 196, 255) !important;
+}
+.white.footerFixed a {
+	color: rgb(51, 51, 51) !important;
+}
+.white.footerFixed a span.wqd {
+	color: rgb(51, 153, 255) !important;
+}
+.pink.footerFixed {
+	background: rgba(254, 134, 166, 0.9) !important;
+}
+.pink.footerFixed span.footerFixed-btn:hover {
+	background: rgb(255, 255, 255); color: rgb(255, 135, 167);
+}
+.blue.footerFixed {
+	background: rgba(102, 208, 250, 0.9) !important;
+}
+.blue.footerFixed span.footerFixed-btn:hover {
+	background: rgb(255, 255, 255); color: rgb(102, 209, 251);
+}
+.palevioletred.footerFixed {
+	background: rgba(153, 102, 255, 0.9) !important;
+}
+.palevioletred.footerFixed span.footerFixed-btn:hover {
+	background: rgb(255, 255, 255); color: rgb(153, 102, 255);
+}
+.green.footerFixed {
+	background: rgba(1, 175, 99, 0.9) !important;
+}
+.green.footerFixed span.footerFixed-btn:hover {
+	background: rgb(255, 255, 255); color: rgb(0, 175, 98);
+}
+.redob.footerFixed {
+	background: rgba(255, 102, 102, 0.9) !important;
+}
+.redob.footerFixed span.footerFixed-btn:hover {
+	background: rgb(255, 255, 255); color: rgb(255, 102, 102);
+}
+.orange.footerFixed {
+	background: rgba(245, 167, 37, 0.9) !important; color: rgb(252, 252, 252) !important;
+}
+.orange.footerFixed span.footerFixed-btn:hover {
+	background: rgb(255, 255, 255); color: rgb(245, 167, 36);
+}
+.darkblue.footerFixed {
+	background: rgba(46, 89, 131, 0.9) !important;
+}
+.darkblue.footerFixed span.footerFixed-btn:hover {
+	background: rgb(255, 255, 255); color: rgb(46, 88, 131);
+}
+.aliceblue.footerFixed {
+	background: rgba(140, 174, 182, 0.9) !important; color: rgb(252, 252, 252) !important;
+}
+.aliceblue.footerFixed span.footerFixed-btn:hover {
+	background: rgb(255, 255, 255); color: rgb(141, 175, 183);
+}
+.greenyellow.footerFixed {
+	background: rgba(102, 204, 0, 0.9) !important;
+}
+.greenyellow.footerFixed span.footerFixed-btn:hover {
+	background: rgb(255, 255, 255); color: rgb(102, 205, 0);
+}
+#wqdProgressbarD ul li.wqdPronumberbarD {
+	width: 110px; height: 60px; text-align: center; margin-left: 20px; float: left;
+}
+.wqd_autowidth {
+	width: auto !important;
+}
+.wqdelementEditBox .wqd_progress {
+	margin: 0px auto; height: 100%; font-size: 60px;
+}
+.wqdelementEditBox .wqd_progress em {
+	color: rgb(89, 93, 157); text-indent: -5px; font-weight: 600; display: block; white-space: nowrap; -ms-word-wrap: normal;
+}
+#wqdProgressbarD .wqdprop {
+	width: auto !important;
+}
+.numberprogressleft {
+	width: 100%; height: 100%; display: block;
+}
+.wqdelementEditBox .wqd_progress1 {
+	margin: 0px auto; height: 100%;
+}
+.wqdelementEditBox .wqd_progress1 em {
+	color: rgb(163, 123, 173); text-indent: -3px; font-family: Arial; font-size: 70px; font-weight: 700; margin-top: 3px; display: block; white-space: nowrap; -ms-word-wrap: normal;
+}
+.pro-start {
+	display: none;
+}
+.pro-end {
+	display: none;
+}
+.pro-svg {
+	left: 0px; top: 0px; width: 100%; height: 100%; overflow: visible !important; position: absolute;
+}
+.circal-start {
+	display: none;
+}
+.circal-end {
+	display: none;
+}
+.wqd-cercalc {
+	margin: auto; border-radius: 50%; left: 0px; top: 0px; width: 82px; height: 82px; right: 0px; bottom: 0px; position: absolute; box-sizing: border-box;
+}
+.hc-show-notfirst.hc-fixed {
+	display: none;
+}
+.hc-show-bottom.hc-fixed {
+	display: none;
+}
+[data-link-href] {
+	cursor: pointer;
+}
+.zoomOut {
+	animation:wqdzoomOut 0.5s both; -webkit-animation: wqdzoomOut 0.5s both; -moz-animation: wqdzoomOut 0.5s both;
+}
+.fadeoutBottom {
+	animation:wqdfadeoutBottom 0.5s both; -webkit-animation: wqdfadeoutBottom 0.5s both; -moz-animation: wqdfadeoutBottom 0.5s both;
+}
+.fadeoutTop {
+	animation:wqdfadeoutTop 0.5s both; -webkit-animation: wqdfadeoutTop 0.5s both; -moz-animation: wqdfadeoutTop 0.5s both;
+}
+.fadeoutRight {
+	animation:wqdfadeoutRight 0.5s both; -webkit-animation: wqdfadeoutRight 0.5s both; -moz-animation: wqdfadeoutRight 0.5s both;
+}
+.fadeoutLeft {
+	animation:wqdfadeoutLeft 0.5s both; -webkit-animation: wqdfadeoutLeft 0.5s both; -moz-animation: wqdfadeoutLeft 0.5s both;
+}
+.zoomIn {
+	animation:wqdzoomIn 0.5s; -webkit-animation: wqdzoomIn 0.5s; -moz-animation: wqdzoomIn 0.5s;
+}
+.fadeinBottom {
+	animation:wqdfadeinBottom 0.5s; -webkit-animation: wqdfadeinBottom 0.5s; -moz-animation: wqdfadeinBottom 0.5s;
+}
+.fadeinTop {
+	animation:wqdfadeinTop 0.5s; -webkit-animation: wqdfadeinTop 0.5s; -moz-animation: wqdfadeinTop 0.5s;
+}
+.fadeinRight {
+	animation:wqdfadeinRight 0.5s; -webkit-animation: wqdfadeinRight 0.5s; -moz-animation: wqdfadeinRight 0.5s;
+}
+.fadeinLeft {
+	animation:wqdfadeInLeft 0.5s; -webkit-animation: wqdfadeInLeft 0.5s; -moz-animation: wqdfadeInLeft 0.5s;
+}
+.none {
+	animation:wqdnone 0.5s; -webkit-animation: wqdnone 0.5s; -moz-animation: wqdnone 0.5s;
+}
+.wqdelementEdit .code_shade_contr {
+	display: none;
+}
+.wqdSectiondiv .code_shade {
+	display: none;
+}
+.wqdelementEdit .codeDetail {
+	width: 100%; height: 100%;
+}
+.modityDetails .modElementHide {
+	display: none !important;
+}
+.modityDetails .modDetlWarning {
+	display: none;
+}
+.modityDetails .modDetlCount {
+	-ms-user-select: none; -webkit-user-select: none; -moz-user-select: none; user-select: none; -o-user-select: none;
+}
+.modityDetails .disabled.purchaseBtn {
+	cursor: default;
+}
+.modityDetails .disabled.shoppingCartBtn {
+	cursor: default;
+}
+.modityDetails .disabled.purchaseBtn::after {
+	left: 0px; top: 0px; width: 100%; height: 100%; position: absolute; content: " "; background-color: rgba(255, 255, 255, 0.7);
+}
+.modityDetails .disabled.shoppingCartBtn::after {
+	left: 0px; top: 0px; width: 100%; height: 100%; position: absolute; content: " "; background-color: rgba(255, 255, 255, 0.7);
+}
+[data-elementtype=groupContainer].freeContainerOne {
+	width: 300px; height: 38px;
+}
+[data-elementtype=groupContainer].freeContainerTwo {
+	width: 300px; height: 160px;
+}
+.accordion-side .accordion_one {
+	width: 200px; height: 80px;
+}
+.accordion-side .accordion_two {
+	width: 280px; height: 240px;
+}
+.accordion-fold .accordion_one {
+	width: 360px; height: 40px;
+}
+.accordion-fold .accordion_two {
+	width: 360px; height: 200px;
+}
+[data-elementtype=groupContainer].tabContainer {
+	width: 60px; height: 90px;
+}
+[data-elementtype=groupContainer].subTabContainer {
+	width: 240px; height: 90px;
+}

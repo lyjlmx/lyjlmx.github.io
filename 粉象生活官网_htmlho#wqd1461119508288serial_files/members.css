@@ -1,0 +1,102 @@
+.memberLogin .edit_contentbox ul.edit_content {
+	padding: 0px;
+}
+.memberLogin .editor-fnblock {
+	padding: 0px 0px 14px 20px;
+}
+.memberLogin .editor-fnblock .title {
+	width: 165px; margin-left: 12px;
+}
+.memberLogin .borderPosition .direction {
+	margin-left: 4px;
+}
+.login_done [data-elementtype=memberLogin] {
+	display: none !important;
+}
+.login_done [data-elementtype=memberLoginWX] {
+	display: none !important;
+}
+.memberLogin .edit_direction {
+	margin-left: 8px; display: inline-block; cursor: pointer;
+}
+.memberLogin .direction {
+	margin-left: 8px; display: inline-block; cursor: pointer;
+}
+.memberLogin .active.direction span {
+	background: url("../../images/v2/design/popup/duoxuan.png") no-repeat center rgb(89, 196, 255); border: currentColor; border-image: none;
+}
+.memberLogin .direction span {
+	margin: 2px 5px 0px 0px; border-radius: 4px; border: 1px solid rgb(220, 220, 220); border-image: none; width: 16px; height: 16px; vertical-align: top; display: inline-block;
+}
+.memberLogin .edit_direction span {
+	margin: 2px 5px 0px 0px; border-radius: 4px; border: 1px solid rgb(220, 220, 220); border-image: none; width: 16px; height: 16px; vertical-align: top; display: inline-block;
+}
+.memberLogin .edit3 label {
+	margin-bottom: 0px;
+}
+.memberLogin .editor-fnblock span.name {
+	color: rgb(51, 51, 51);
+}
+.wqdDMembers {
+	border: 1px solid rgb(45, 188, 230); border-image: none; width: 100%; height: 100%; text-align: center; color: rgb(255, 255, 255); text-decoration: none; vertical-align: middle; display: inline-block;
+}
+.wqdelementEdit a.wqd-members {
+	border: 1px solid rgb(45, 188, 230); border-image: none; width: 100%; height: 100%; text-align: center; color: rgb(255, 255, 255); text-decoration: none; vertical-align: middle; display: inline-block;
+}
+.wqdelementEdit a.wqd-members {
+	border-color: rgb(118, 154, 222); border-radius: 5px;
+}
+.wqdDMembers {
+	border-color: rgb(118, 154, 222); border-radius: 5px; width: 140px; height: 36px;
+}
+.wqdDMembers em {
+	top: 50%; color: rgb(118, 154, 222); font-size: 14px; font-style: normal; display: inline-block; position: relative; transform: translateY(-50%); -webkit-transform: translateY(-50%); -o-transform: translateY(-50%);
+}
+.wqdelementEdit a.wqd-members em {
+	top: 50%; color: rgb(118, 154, 222); font-size: 14px; font-style: normal; display: inline-block; position: relative; transform: translateY(-50%); -webkit-transform: translateY(-50%); -o-transform: translateY(-50%);
+}
+.wqdComponents ul li.wqdDragMemberLoginD {
+	margin: 0px 0px 10px; width: 110px; text-align: center; vertical-align: middle; display: inline-block;
+}
+.wqdComponents ul li:first-child.wqdDragMemberLoginD {
+	margin: 0px 14px 10px 5px;
+}
+.wqdDMembers {
+	border-color: rgb(118, 154, 222); border-radius: 5px; width: 140px; height: 36px;
+}
+.wqdDMembers i {
+	display: inline-block;
+}
+.wqdDMembers i img {
+	vertical-align: middle; display: inline-block;
+}
+.wqdDMembers em {
+	color: rgb(118, 154, 222); display: inline-block;
+}
+.elementlist-wqdMemberOther {
+	padding-left: 5px;
+}
+.elementlist-wqdMemberOther li {
+	margin-right: 39px;
+}
+.elementlist-wqdMemberOther li:nth-child(3) {
+	margin-right: 0px;
+}
+.elementlist-wqdMemberOther .wqdDragElement {
+	width: auto;
+}
+.elementlist-wqdMemberOther .wqdMemberWX {
+	width: 36px; height: 36px; vertical-align: middle;
+}
+.elementlist-wqdMemberOther svg {
+	width: 100%; height: 100%;
+}
+.wqdelementEditBox {
+	width: 100%; height: 100%; overflow: hidden; position: absolute; z-index: 1;
+}
+.wqdelementEdit a.wqd-members i {
+	left: 25px; top: 9px; width: 16px; height: 19px; position: absolute;
+}
+.elementlist .de-img-gray.wqdDragElement svg > * {
+	fill: #ddd;
+}

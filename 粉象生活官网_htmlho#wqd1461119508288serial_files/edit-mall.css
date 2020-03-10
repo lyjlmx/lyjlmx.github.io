@@ -1,0 +1,297 @@
+.wqd-buyCar {
+	background: rgb(255, 255, 255); transition:0.35s; top: 0px; width: 390px; height: 100%; right: 0px; display: none; position: fixed; z-index: 1000; -webkit-transition: 0.35s; -o-transition: 0.35s; -moz-transition: 0.35s;
+}
+.wqd-buyCar .left {
+	background: rgb(0, 0, 0); width: 40px; height: 100%; float: left; cursor: pointer;
+}
+.wqd-buyCar .left ul {
+	margin-top: 175px;
+}
+.wqd-buyCar .left ul .personal {
+	background: rgb(0, 0, 0); width: 100%; padding-top: 15px; padding-bottom: 10px; margin-bottom: 10px;
+}
+.wqd-buyCar .left ul .personal:hover {
+	background-color: rgb(221, 0, 10);
+}
+.wqd-buyCar .left ul .personal a {
+	margin: 0px auto; display: block;
+}
+.wqd-buyCar .left ul .personal img {
+	margin: 0px auto; border-radius: 50%; width: 26px; height: 26px; overflow: hidden; display: block; box-shadow: 0px 0px 9px 0px #ddd;
+}
+.wqd-buyCar .left ul .personal span {
+	margin: 15px auto 5px; width: 22px; text-align: center; color: rgb(255, 255, 255); line-height: 20px; font-size: 14px; display: block;
+}
+.wqd-buyCar .left ul .personal-car {
+	padding: 30px 0px 5px; width: 100%; height: 150px; position: relative;
+}
+.wqd-buyCar .left ul .personal-car:hover {
+	background-color: rgb(221, 0, 10);
+}
+.wqd-buyCar .left ul .personal-car:hover::before {
+	background-color: rgb(221, 0, 10);
+}
+.wqd-buyCar .left ul .personal-car:hover::after {
+	background-color: rgb(221, 0, 10);
+}
+.wqd-buyCar .left ul .personal-car::before {
+	width: 25px; height: 1px; position: absolute; content: ""; background-color: rgb(102, 102, 102);
+}
+.wqd-buyCar .left ul .personal-car::after {
+	width: 25px; height: 1px; position: absolute; content: ""; background-color: rgb(102, 102, 102);
+}
+.wqd-buyCar .left ul .personal-car::before {
+	left: 8px; top: 0px;
+}
+.wqd-buyCar .left ul .personal-car::after {
+	left: 8px; bottom: 0px;
+}
+.wqd-buyCar .left ul .personal-car span {
+	display: block;
+}
+.wqd-buyCar .left ul .personal-car i.strong {
+	display: block;
+}
+.wqd-buyCar .left ul .personal-car i {
+	background-position: 0px 0px; margin: 0px auto 10px; width: 16px; height: 16px; display: block;
+}
+.wqd-buyCar .left ul .personal-car span {
+	margin: 15px auto 5px; width: 22px; text-align: center; color: rgb(255, 255, 255); line-height: 20px; font-size: 14px; display: block;
+}
+.wqd-buyCar .left ul .personal-car strong {
+	background: url("/images/mall/buy-circal.png"); margin: 0px auto; width: 20px; height: 20px; text-align: center; color: rgb(255, 51, 0); line-height: 20px; display: block;
+}
+.wqd-buyCar .left ul .personal-car strong.none {
+	display: none;
+}
+.wqd-buyCar .right {
+	padding: 40px 0px 200px; width: 350px; height: 100%; float: right; position: relative; background-color: rgb(244, 244, 244);
+}
+.wqd-buyCar .right .detail-top {
+	left: 0px; top: 0px; width: 100%; height: 40px; position: absolute;
+}
+.wqd-buyCar .right .detail-top a {
+	margin: 16px 0px 0px 18px; color: rgb(102, 102, 102); padding-right: 15px; font-size: 12px; display: inline-block; position: relative; cursor: pointer;
+}
+.wqd-buyCar .right .detail-top a::before {
+	background-position: 0px -208px; left: 67px; top: 3px; width: 6px; height: 12px; display: block; position: absolute; content: "";
+}
+.wqd-buyCar .right .detail-top a:hover {
+	color: rgb(234, 0, 11);
+}
+.wqd-buyCar .right .detail-top a:hover::before {
+	background-position: 0px -230px;
+}
+.wqd-buyCar .right .null {
+	left: 0px; top: 0px; width: 100%; height: 100%; display: none; position: absolute; z-index: 100;
+}
+.wqd-buyCar .right .on.null {
+	display: block;
+}
+.wqd-buyCar .right .null span {
+	left: 50%; top: 50%; color: rgb(102, 102, 102); font-size: 12px; position: absolute; transform: translate(-50%, -50%);
+}
+.wqd-buyCar .right #wqd-about {
+	width: 100%; height: 100%; overflow: hidden; position: relative; background-color: rgb(244, 244, 244);
+}
+.wqd-buyCar .right #wqd-about .nano-content {
+	padding: 0px 20px 0px 0px;
+}
+.wqd-buyCar .right #wqd-about .nano > .nano-pane {
+	background: none; border-radius: 5px; transition:0.2s; top: 0px; width: 8px; right: 0px; bottom: 0px; visibility: hidden; position: absolute; z-index: 99; opacity: 0.01; -webkit-transition: .2s; -o-transition: .2s; -moz-transition: .2s; -webkit-border-radius: 5px; -moz-border-radius: 5px;
+}
+.wqd-buyCar .right #wqd-about .nano-pane {
+	margin: 0px; width: 6px; right: 1px; background-color: transparent;
+}
+.wqd-buyCar .right #wqd-about .nano-pane .nano-slider {
+	background: rgba(39, 39, 39, 0.5); margin: 0px; border-radius: 4px; position: relative; -webkit-border-radius: 3px; -moz-border-radius: 3px;
+}
+.wqd-buyCar .right .detail-list li {
+	padding: 20px 0px 20px 30px; width: 340px; font-size: 12px; margin-top: 30px; position: relative; min-height: 120px; background-color: rgb(255, 255, 255);
+}
+.wqd-buyCar .right .detail-list li .edit-radio {
+	background-position: 0px -252px; left: 8px; top: 55px; width: 15px; height: 15px; display: block; position: absolute; cursor: pointer;
+}
+.wqd-buyCar .right .detail-list li .active.edit-radio {
+	background-position: 0px -277px;
+}
+.wqd-buyCar .right .detail-list li.list-first {
+	margin-top: 0px;
+}
+.wqd-buyCar .right .detail-list li dl {
+	padding-left: 116px; position: relative;
+}
+.wqd-buyCar .right .detail-list li dt {
+	left: 0px; position: absolute;
+}
+.wqd-buyCar .right .detail-list li dt a {
+	display: block;
+}
+.wqd-buyCar .right .detail-list li dt img {
+	width: 106px; height: 80px;
+}
+.wqd-buyCar .right .detail-list li dd {
+	float: left;
+}
+.wqd-buyCar .right .detail-list li .detail-title {
+	width: 170px; height: 35px; color: rgb(102, 102, 102);
+}
+.wqd-buyCar .right .detail-list li .detail-title a {
+	width: 100%; height: 100%; color: rgb(102, 102, 102); overflow: hidden; display: block;
+}
+.wqd-buyCar .right .detail-list li .detail-title a:hover {
+	color: rgb(89, 196, 255);
+}
+.wqd-buyCar .right .detail-list li .detail-describe {
+	margin: 10px 0px 5px; width: 175px; color: rgb(51, 51, 51); -ms-word-break: break-all; -ms-word-wrap: break-word;
+}
+.wqd-buyCar .right .detail-list li .detail-describe span {
+	margin-left: 5px;
+}
+.wqd-buyCar .right .detail-list li .detail-describe span.describe-first {
+	margin-left: 0px;
+}
+.wqd-buyCar .right .detail-list li .detail-model {
+	width: 190px;
+}
+.wqd-buyCar .right .detail-list li .detail-model span {
+	display: inline-block;
+}
+.wqd-buyCar .right .detail-list li .detail-model i {
+	display: inline-block;
+}
+.wqd-buyCar .right .detail-list li .detail-model em {
+	display: inline-block;
+}
+.wqd-buyCar .right .detail-list li .detail-model em {
+	margin-left: 20px;
+}
+.wqd-buyCar .right .detail-list li .model {
+	margin-right: 5px;
+}
+.wqd-buyCar .right .detail-list li .num-reduse {
+	width: 17px; height: 17px; vertical-align: bottom; cursor: pointer;
+}
+.wqd-buyCar .right .detail-list li .num-add {
+	width: 17px; height: 17px; vertical-align: bottom; cursor: pointer;
+}
+.wqd-buyCar .right .detail-list li .num-reduse {
+	background-position: 0px -79px;
+}
+.wqd-buyCar .right .detail-list li .num-reduse:hover {
+	background-position: 0px -133px;
+}
+.wqd-buyCar .right .detail-list li .num-add {
+	background-position: 0px -52px;
+}
+.wqd-buyCar .right .detail-list li .num-add:hover {
+	background-position: 0px -106px;
+}
+.wqd-buyCar .right .detail-list li .number {
+	width: 30px; text-align: center;
+}
+.wqd-buyCar .right .detail-list li .price {
+	width: 65px; text-align: center;
+}
+.wqd-buyCar .right .detail-list li .delete {
+	background-position: 0px -160px; width: 13px; height: 14px; vertical-align: bottom; cursor: pointer;
+}
+.wqd-buyCar .right .detail-list li .delete:hover {
+	background-position: 0px -184px;
+}
+.wqd-buyCar .right .detail-bottom {
+	margin: 0px auto; left: 0px; width: 100%; height: 200px; bottom: 0px; position: absolute;
+}
+.wqd-buyCar .right .clickable.detail-bottom .reckoning {
+	background: rgb(204, 204, 204);
+}
+.wqd-buyCar .right .clickable.detail-bottom::after {
+	top: 115px; width: 270px; height: 35px; right: 40px; display: block; position: absolute; content: "";
+}
+.wqd-buyCar .right .detail-bottom .item {
+	margin: 0px auto; padding: 20px 10px; width: 330px; color: rgb(51, 51, 51); font-size: 12px; border-top-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.wqd-buyCar .right .detail-bottom .item .item-all {
+	width: 50px; float: left;
+}
+.wqd-buyCar .right .detail-bottom .item span {
+	display: inline-block;
+}
+.wqd-buyCar .right .detail-bottom .item span.select {
+	float: right;
+}
+.wqd-buyCar .right .detail-bottom .item .radio-all {
+	background-position: 0px -252px; width: 15px; height: 15px; margin-right: 5px; vertical-align: text-bottom; display: inline-block; cursor: pointer;
+}
+.wqd-buyCar .right .detail-bottom .item .active.radio-all {
+	background-position: 0px -277px;
+}
+.wqd-buyCar .right .detail-bottom strong {
+	margin: 5px auto 20px; width: 270px; text-align: center; color: rgb(234, 0, 11); font-size: 14px; display: block;
+}
+.wqd-buyCar .right .detail-bottom .reckoning {
+	margin: 0px auto; border-radius: 5px; width: 270px; height: 35px; text-align: center; color: rgb(255, 255, 255); line-height: 35px; font-size: 14px; cursor: pointer; background-color: rgb(234, 0, 11); -webkit-border-radius: 5px; -moz-border-radius: 5px;
+}
+.wqd-buyCar .personal-car i {
+	background: url("/images/mall/result-shopping.png") no-repeat;
+}
+.wqd-buyCar .edit-radio {
+	background: url("/images/mall/result-shopping.png") no-repeat;
+}
+.wqd-buyCar .radio-all {
+	background: url("/images/mall/result-shopping.png") no-repeat;
+}
+.wqd-buyCar .detail-top a::before {
+	background: url("/images/mall/result-shopping.png") no-repeat;
+}
+.wqd-buyCar .num-reduse {
+	background: url("/images/mall/result-shopping.png") no-repeat;
+}
+.wqd-buyCar .num-add {
+	background: url("/images/mall/result-shopping.png") no-repeat;
+}
+.wqd-buyCar em.delete {
+	background: url("/images/mall/result-shopping.png") no-repeat;
+}
+.goods-members.wqd-buyCar {
+	top: 0px; width: 0px; height: 100%; right: 40px; display: block; position: fixed;
+}
+.goods-members.wqd-buyCar ul {
+	margin-top: 150px;
+}
+.goods-members.wqd-buyCar .left .personal-car {
+	display: none;
+}
+.goods-members.wqd-buyCar .right {
+	display: none;
+}
+.goods-pay.wqd-buyCar {
+	right: -350px; display: block;
+}
+.show.goods-pay.wqd-buyCar {
+	transition:0.35s; right: 0px !important; -webkit-transition: 0.35s; -o-transition: 0.35s; -moz-transition: 0.35s;
+}
+.goods-pay.wqd-buyCar .left {
+	height: 100%;
+}
+.goods-pay.wqd-buyCar .left ul {
+	margin-top: 150px;
+}
+.goods-pay.wqd-buyCar .left .personal-car {
+	display: block;
+}
+.goods-pay.wqd-buyCar .left .personal-title {
+	display: block;
+}
+.goods-pay.wqd-buyCar .left .personal-number {
+	display: block;
+}
+.goods-pay.wqd-buyCar .left .personal {
+	position: static;
+}
+.goods-pay.wqd-buyCar .right {
+	display: block;
+}
+.mini {
+	border-radius: 50%; transition:all; width: 30px; height: 30px; overflow: hidden; display: none; position: fixed; z-index: 11; pointer-events: none; background-size: 100% 100%; -webkit-background-size: 100% 100%;
+}
